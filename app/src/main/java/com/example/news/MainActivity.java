@@ -47,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
 
         TV_NEWS();
 
+        button.setOnClickListener(v -> {
+
+        });
+
 
 
         MTADAPTER MYadapter = new MTADAPTER();
