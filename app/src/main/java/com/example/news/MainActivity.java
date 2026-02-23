@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
     ArrayList <HashMap <String,String>> arrayList = new ArrayList();
     HashMap <String,String> hashMap ;
 
-    Button button = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,11 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         TV_NEWS();
 
-        button.setOnClickListener(v -> {
 
-            Toast.makeText(MainActivity.this,"ere",Toast.LENGTH_SHORT).show();
-
-        });
 
 
 
