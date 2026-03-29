@@ -51,9 +51,6 @@ public class MainActivity extends AppCompatActivity {
         TV_NEWS();
 
 
-
-
-
         MTADAPTER MYadapter = new MTADAPTER();
         MY_VIEW.setAdapter(MYadapter);
     }

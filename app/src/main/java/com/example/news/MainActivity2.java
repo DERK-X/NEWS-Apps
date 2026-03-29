@@ -49,6 +49,9 @@ public class MainActivity2 extends AppCompatActivity {
         TV_ONER.setText(ONER);
         TV_NAME.setText(NAME);
 
+
+
+
         if (MyBitmap!=null) IMAGE.setImageBitmap(MyBitmap);
         if (MyBitmaplogo!=null) TV_LOGO.setImageBitmap(MyBitmaplogo);
 
